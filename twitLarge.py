@@ -2,11 +2,11 @@
 
 import os, bs4, requests, sys, pyperclip
 
-pictureDir = '/home/sho/Pictures'
-saveDir = os.path.join(pictureDir, 'twitLarge')
+#pictureDir = ''
+#saveDir = os.path.join(pictureDir, 'twitLarge')
 
-os.makedirs(saveDir, exist_ok=True)
-os.chdir(saveDir)
+#os.makedirs(saveDir, exist_ok=True)
+#os.chdir(saveDir)
 
 if len(sys.argv) == 1:
     address = pyperclip.paste()
